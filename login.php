@@ -38,7 +38,7 @@ session_start();
 
                 <div class="form-group">
                     <div class="col-md-6 offset-md-3">
-                        <label> Usuário ou E-MAIL</label>
+                        <label> Usuário ou email</label>
                         <input type="text" name="login" id="login" 
                         class="form-control shadow-sm p-3 mb-2 bg-body rounded" placeholder=" Usuário " required="">
                     </div>
