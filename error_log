@@ -1,0 +1,304 @@
+[26-Nov-2022 14:33:38 America/Fortaleza] PHP Warning:  DOMDocument::loadHTML(): Tag app-root invalid in Entity, line: 12 in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 163
+[26-Nov-2022 14:33:38 America/Fortaleza] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to DOMXPath::__construct() must be an instance of DOMDocument, null given in /home2/hnrtco66/felpsti.com.br/fvg/index.php:164
+Stack trace:
+#0 /home2/hnrtco66/felpsti.com.br/fvg/index.php(164): DOMXPath->__construct(NULL)
+#1 {main}
+  thrown in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 164
+[26-Nov-2022 14:33:42 America/Fortaleza] PHP Warning:  DOMDocument::loadHTML(): Tag app-root invalid in Entity, line: 12 in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 163
+[26-Nov-2022 14:33:42 America/Fortaleza] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to DOMXPath::__construct() must be an instance of DOMDocument, null given in /home2/hnrtco66/felpsti.com.br/fvg/index.php:164
+Stack trace:
+#0 /home2/hnrtco66/felpsti.com.br/fvg/index.php(164): DOMXPath->__construct(NULL)
+#1 {main}
+  thrown in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 164
+[26-Nov-2022 14:33:55 America/Fortaleza] PHP Warning:  DOMDocument::loadHTML(): Tag app-root invalid in Entity, line: 12 in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 163
+[26-Nov-2022 14:33:55 America/Fortaleza] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to DOMXPath::__construct() must be an instance of DOMDocument, null given in /home2/hnrtco66/felpsti.com.br/fvg/index.php:164
+Stack trace:
+#0 /home2/hnrtco66/felpsti.com.br/fvg/index.php(164): DOMXPath->__construct(NULL)
+#1 {main}
+  thrown in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 164
+[26-Nov-2022 14:33:58 America/Fortaleza] PHP Warning:  DOMDocument::loadHTML(): Tag app-root invalid in Entity, line: 12 in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 163
+[26-Nov-2022 14:33:58 America/Fortaleza] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to DOMXPath::__construct() must be an instance of DOMDocument, null given in /home2/hnrtco66/felpsti.com.br/fvg/index.php:164
+Stack trace:
+#0 /home2/hnrtco66/felpsti.com.br/fvg/index.php(164): DOMXPath->__construct(NULL)
+#1 {main}
+  thrown in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 164
+[26-Nov-2022 14:34:30 America/Fortaleza] PHP Warning:  DOMDocument::loadHTML(): Tag app-root invalid in Entity, line: 49 in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 163
+[26-Nov-2022 14:34:30 America/Fortaleza] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to DOMXPath::__construct() must be an instance of DOMDocument, null given in /home2/hnrtco66/felpsti.com.br/fvg/index.php:164
+Stack trace:
+#0 /home2/hnrtco66/felpsti.com.br/fvg/index.php(164): DOMXPath->__construct(NULL)
+#1 {main}
+  thrown in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 164
+[26-Nov-2022 14:34:33 America/Fortaleza] PHP Warning:  DOMDocument::loadHTML(): Tag app-root invalid in Entity, line: 49 in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 163
+[26-Nov-2022 14:34:33 America/Fortaleza] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to DOMXPath::__construct() must be an instance of DOMDocument, null given in /home2/hnrtco66/felpsti.com.br/fvg/index.php:164
+Stack trace:
+#0 /home2/hnrtco66/felpsti.com.br/fvg/index.php(164): DOMXPath->__construct(NULL)
+#1 {main}
+  thrown in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 164
+[26-Nov-2022 14:34:38 America/Fortaleza] PHP Warning:  DOMDocument::loadHTML(): Tag app-root invalid in Entity, line: 49 in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 163
+[26-Nov-2022 14:34:38 America/Fortaleza] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to DOMXPath::__construct() must be an instance of DOMDocument, null given in /home2/hnrtco66/felpsti.com.br/fvg/index.php:164
+Stack trace:
+#0 /home2/hnrtco66/felpsti.com.br/fvg/index.php(164): DOMXPath->__construct(NULL)
+#1 {main}
+  thrown in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 164
+[26-Nov-2022 14:36:29 America/Fortaleza] PHP Warning:  DOMDocument::loadHTML(): Tag app-root invalid in Entity, line: 49 in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 163
+[26-Nov-2022 14:36:29 America/Fortaleza] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to DOMXPath::__construct() must be an instance of DOMDocument, null given in /home2/hnrtco66/felpsti.com.br/fvg/index.php:164
+Stack trace:
+#0 /home2/hnrtco66/felpsti.com.br/fvg/index.php(164): DOMXPath->__construct(NULL)
+#1 {main}
+  thrown in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 164
+[26-Nov-2022 14:36:55 America/Fortaleza] PHP Warning:  DOMDocument::loadHTML(): Tag app-root invalid in Entity, line: 49 in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 164
+[26-Nov-2022 14:36:55 America/Fortaleza] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to DOMXPath::__construct() must be an instance of DOMDocument, null given in /home2/hnrtco66/felpsti.com.br/fvg/index.php:165
+Stack trace:
+#0 /home2/hnrtco66/felpsti.com.br/fvg/index.php(165): DOMXPath->__construct(NULL)
+#1 {main}
+  thrown in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 165
+[26-Nov-2022 14:39:12 America/Fortaleza] PHP Warning:  DOMDocument::loadHTML(): Tag app-root invalid in Entity, line: 49 in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 164
+[26-Nov-2022 14:39:12 America/Fortaleza] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to DOMXPath::__construct() must be an instance of DOMDocument, null given in /home2/hnrtco66/felpsti.com.br/fvg/index.php:165
+Stack trace:
+#0 /home2/hnrtco66/felpsti.com.br/fvg/index.php(165): DOMXPath->__construct(NULL)
+#1 {main}
+  thrown in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 165
+[26-Nov-2022 14:39:14 America/Fortaleza] PHP Warning:  DOMDocument::loadHTML(): Tag app-root invalid in Entity, line: 49 in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 164
+[26-Nov-2022 14:39:14 America/Fortaleza] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to DOMXPath::__construct() must be an instance of DOMDocument, null given in /home2/hnrtco66/felpsti.com.br/fvg/index.php:165
+Stack trace:
+#0 /home2/hnrtco66/felpsti.com.br/fvg/index.php(165): DOMXPath->__construct(NULL)
+#1 {main}
+  thrown in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 165
+[26-Nov-2022 14:39:40 America/Fortaleza] PHP Warning:  DOMDocument::loadHTML(): Tag app-root invalid in Entity, line: 49 in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 615
+[26-Nov-2022 14:39:40 America/Fortaleza] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to DOMXPath::__construct() must be an instance of DOMDocument, null given in /home2/hnrtco66/felpsti.com.br/fvg/index.php:616
+Stack trace:
+#0 /home2/hnrtco66/felpsti.com.br/fvg/index.php(616): DOMXPath->__construct(NULL)
+#1 {main}
+  thrown in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 616
+[26-Nov-2022 14:40:08 America/Fortaleza] PHP Warning:  DOMDocument::loadHTML(): Tag app-root invalid in Entity, line: 49 in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 994
+[26-Nov-2022 14:40:08 America/Fortaleza] PHP Fatal error:  Uncaught TypeError: Argument 1 passed to DOMXPath::__construct() must be an instance of DOMDocument, null given in /home2/hnrtco66/felpsti.com.br/fvg/index.php:995
+Stack trace:
+#0 /home2/hnrtco66/felpsti.com.br/fvg/index.php(995): DOMXPath->__construct(NULL)
+#1 {main}
+  thrown in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 995
+[26-Nov-2022 15:07:17 America/Fortaleza] PHP Warning:  Illegal string offset 'cases' in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 1006
+[26-Nov-2022 15:09:02 America/Fortaleza] PHP Warning:  Illegal string offset 'cases' in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 302
+[26-Nov-2022 15:10:38 America/Fortaleza] PHP Warning:  Illegal string offset 'cases' in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 268
+[26-Nov-2022 15:11:16 America/Fortaleza] PHP Warning:  Illegal string offset 'cases' in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 269
+[26-Nov-2022 15:11:47 America/Fortaleza] PHP Warning:  Illegal string offset 'cases' in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 237
+[26-Nov-2022 15:13:17 America/Fortaleza] PHP Warning:  Illegal string offset 'cases' in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 239
+[26-Nov-2022 15:13:33 America/Fortaleza] PHP Warning:  Illegal string offset 'cases' in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 240
+[26-Nov-2022 15:14:32 America/Fortaleza] PHP Warning:  Illegal string offset 'cases' in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 240
+[26-Nov-2022 15:18:23 America/Fortaleza] PHP Warning:  Illegal string offset 'uf' in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 241
+[26-Nov-2022 15:18:44 America/Fortaleza] PHP Warning:  Illegal string offset 'uf' in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 241
+[26-Nov-2022 15:19:13 America/Fortaleza] PHP Warning:  Illegal string offset 'data' in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 241
+[26-Nov-2022 15:19:13 America/Fortaleza] PHP Warning:  Illegal string offset 'uf' in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 241
+[26-Nov-2022 15:22:05 America/Fortaleza] PHP Warning:  Illegal string offset 'data' in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 242
+[26-Nov-2022 15:22:05 America/Fortaleza] PHP Warning:  Illegal string offset 'state' in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 242
+[26-Nov-2022 15:33:40 America/Fortaleza] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, string given in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 244
+[26-Nov-2022 15:33:58 America/Fortaleza] PHP Warning:  date_format() expects parameter 1 to be DateTimeInterface, string given in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 244
+[26-Nov-2022 15:37:09 America/Fortaleza] PHP Fatal error:  Uncaught Error: Call to undefined function ate() in /home2/hnrtco66/felpsti.com.br/fvg/index.php:222
+Stack trace:
+#0 {main}
+  thrown in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 222
+[26-Nov-2022 15:47:13 America/Fortaleza] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 252
+[26-Nov-2022 15:47:15 America/Fortaleza] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 252
+[26-Nov-2022 15:47:19 America/Fortaleza] PHP Parse error:  syntax error, unexpected '}', expecting ';' or ',' in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 252
+[01-Dec-2022 16:20:19 America/Fortaleza] PHP Fatal error:  Constant expression contains invalid operations in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 223
+[01-Dec-2022 16:20:21 America/Fortaleza] PHP Fatal error:  Constant expression contains invalid operations in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 223
+[01-Dec-2022 16:20:36 America/Fortaleza] PHP Fatal error:  Constant expression contains invalid operations in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 223
+[01-Dec-2022 16:21:44 America/Fortaleza] PHP Fatal error:  Constant expression contains invalid operations in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 223
+[01-Dec-2022 16:21:45 America/Fortaleza] PHP Fatal error:  Constant expression contains invalid operations in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 223
+[01-Dec-2022 16:21:54 America/Fortaleza] PHP Fatal error:  Constant expression contains invalid operations in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 223
+[01-Dec-2022 16:21:59 America/Fortaleza] PHP Fatal error:  Constant expression contains invalid operations in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 223
+[01-Dec-2022 16:45:01 America/Fortaleza] PHP Parse error:  syntax error, unexpected '.' in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 243
+[01-Dec-2022 16:50:14 America/Fortaleza] PHP Parse error:  syntax error, unexpected ')', expecting ';' or ',' in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 241
+[01-Dec-2022 16:50:30 America/Fortaleza] PHP Parse error:  syntax error, unexpected ')', expecting ';' or ',' in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 241
+[01-Dec-2022 16:50:37 America/Fortaleza] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in /home2/hnrtco66/felpsti.com.br/fvg/index.php:241
+Stack trace:
+#0 {main}
+  thrown in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 241
+[01-Dec-2022 16:51:12 America/Fortaleza] PHP Fatal error:  Uncaught Error: Object of class stdClass could not be converted to string in /home2/hnrtco66/felpsti.com.br/fvg/index.php:242
+Stack trace:
+#0 {main}
+  thrown in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 242
+[01-Dec-2022 17:00:21 America/Fortaleza] PHP Parse error:  syntax error, unexpected '{' in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 242
+[01-Dec-2022 17:00:28 America/Fortaleza] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home2/hnrtco66/felpsti.com.br/fvg/index.php:242
+Stack trace:
+#0 {main}
+  thrown in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 242
+[01-Dec-2022 17:00:32 America/Fortaleza] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home2/hnrtco66/felpsti.com.br/fvg/index.php:242
+Stack trace:
+#0 {main}
+  thrown in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 242
+[01-Dec-2022 17:00:34 America/Fortaleza] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home2/hnrtco66/felpsti.com.br/fvg/index.php:242
+Stack trace:
+#0 {main}
+  thrown in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 242
+[01-Dec-2022 17:00:47 America/Fortaleza] PHP Fatal error:  Uncaught Error: Cannot use object of type stdClass as array in /home2/hnrtco66/felpsti.com.br/fvg/index.php:242
+Stack trace:
+#0 {main}
+  thrown in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 242
+[01-Dec-2022 17:01:10 America/Fortaleza] PHP Parse error:  syntax error, unexpected ''uid'' (T_CONSTANT_ENCAPSED_STRING), expecting identifier (T_STRING) or variable (T_VARIABLE) or '{' or '$' in /home2/hnrtco66/felpsti.com.br/fvg/index.php on line 242
+[05-Jan-2023 01:16:54 America/Fortaleza] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php on line 11
+[05-Jan-2023 01:16:54 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php:14
+Stack trace:
+#0 /home2/hnrtco66/felpsti.com.br/fvg/conexao.php(14): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 /home2/hnrtco66/felpsti.com.br/fvg/index.php(374): include('/home2/hnrtco66...')
+#2 {main}
+  thrown in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php on line 14
+[05-Jan-2023 01:17:02 America/Fortaleza] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php on line 11
+[05-Jan-2023 01:17:02 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php:14
+Stack trace:
+#0 /home2/hnrtco66/felpsti.com.br/fvg/conexao.php(14): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 /home2/hnrtco66/felpsti.com.br/fvg/index.php(374): include('/home2/hnrtco66...')
+#2 {main}
+  thrown in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php on line 14
+[05-Jan-2023 01:17:06 America/Fortaleza] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php on line 11
+[05-Jan-2023 01:17:06 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php:14
+Stack trace:
+#0 /home2/hnrtco66/felpsti.com.br/fvg/conexao.php(14): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 /home2/hnrtco66/felpsti.com.br/fvg/index.php(374): include('/home2/hnrtco66...')
+#2 {main}
+  thrown in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php on line 14
+[05-Jan-2023 01:17:38 America/Fortaleza] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php on line 11
+[05-Jan-2023 01:17:38 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php:14
+Stack trace:
+#0 /home2/hnrtco66/felpsti.com.br/fvg/conexao.php(14): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 /home2/hnrtco66/felpsti.com.br/fvg/DAO/medicoDAO.php(153): require('/home2/hnrtco66...')
+#2 /home2/hnrtco66/felpsti.com.br/fvg/presenca.php(186): readMedicoList()
+#3 {main}
+  thrown in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php on line 14
+[05-Jan-2023 01:17:41 America/Fortaleza] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php on line 11
+[05-Jan-2023 01:17:41 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php:14
+Stack trace:
+#0 /home2/hnrtco66/felpsti.com.br/fvg/conexao.php(14): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 /home2/hnrtco66/felpsti.com.br/fvg/DAO/medicoDAO.php(183): require('/home2/hnrtco66...')
+#2 /home2/hnrtco66/felpsti.com.br/fvg/atendimento.php(188): readMedicoDia()
+#3 {main}
+  thrown in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php on line 14
+[05-Jan-2023 01:17:47 America/Fortaleza] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php on line 11
+[05-Jan-2023 01:17:47 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php:14
+Stack trace:
+#0 /home2/hnrtco66/felpsti.com.br/fvg/conexao.php(14): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 /home2/hnrtco66/felpsti.com.br/fvg/DAO/medicoDAO.php(183): require('/home2/hnrtco66...')
+#2 /home2/hnrtco66/felpsti.com.br/fvg/atendimento.php(188): readMedicoDia()
+#3 {main}
+  thrown in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php on line 14
+[05-Jan-2023 01:17:47 America/Fortaleza] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php on line 11
+[05-Jan-2023 01:17:47 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php:14
+Stack trace:
+#0 /home2/hnrtco66/felpsti.com.br/fvg/conexao.php(14): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 /home2/hnrtco66/felpsti.com.br/fvg/DAO/medicoDAO.php(153): require('/home2/hnrtco66...')
+#2 /home2/hnrtco66/felpsti.com.br/fvg/presenca.php(186): readMedicoList()
+#3 {main}
+  thrown in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php on line 14
+[05-Jan-2023 01:17:49 America/Fortaleza] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php on line 11
+[05-Jan-2023 01:17:49 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php:14
+Stack trace:
+#0 /home2/hnrtco66/felpsti.com.br/fvg/conexao.php(14): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 /home2/hnrtco66/felpsti.com.br/fvg/index.php(374): include('/home2/hnrtco66...')
+#2 {main}
+  thrown in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php on line 14
+[05-Jan-2023 01:18:36 America/Fortaleza] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php on line 11
+[05-Jan-2023 01:18:36 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php:14
+Stack trace:
+#0 /home2/hnrtco66/felpsti.com.br/fvg/conexao.php(14): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 /home2/hnrtco66/felpsti.com.br/fvg/index.php(374): include('/home2/hnrtco66...')
+#2 {main}
+  thrown in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php on line 14
+[05-Jan-2023 01:18:45 America/Fortaleza] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php on line 11
+[05-Jan-2023 01:18:45 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php:14
+Stack trace:
+#0 /home2/hnrtco66/felpsti.com.br/fvg/conexao.php(14): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 /home2/hnrtco66/felpsti.com.br/fvg/index.php(374): include('/home2/hnrtco66...')
+#2 {main}
+  thrown in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php on line 14
+[05-Jan-2023 01:18:50 America/Fortaleza] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php on line 11
+[05-Jan-2023 01:18:50 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php:14
+Stack trace:
+#0 /home2/hnrtco66/felpsti.com.br/fvg/conexao.php(14): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 /home2/hnrtco66/felpsti.com.br/fvg/index.php(374): include('/home2/hnrtco66...')
+#2 {main}
+  thrown in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php on line 14
+[05-Jan-2023 01:19:33 America/Fortaleza] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php on line 11
+[05-Jan-2023 01:19:33 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php:14
+Stack trace:
+#0 /home2/hnrtco66/felpsti.com.br/fvg/conexao.php(14): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 /home2/hnrtco66/felpsti.com.br/fvg/DAO/medicoDAO.php(153): require('/home2/hnrtco66...')
+#2 /home2/hnrtco66/felpsti.com.br/fvg/presenca.php(186): readMedicoList()
+#3 {main}
+  thrown in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php on line 14
+[05-Jan-2023 01:19:52 America/Fortaleza] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php on line 11
+[05-Jan-2023 01:19:52 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php:14
+Stack trace:
+#0 /home2/hnrtco66/felpsti.com.br/fvg/conexao.php(14): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 /home2/hnrtco66/felpsti.com.br/fvg/DAO/medicoDAO.php(183): require('/home2/hnrtco66...')
+#2 /home2/hnrtco66/felpsti.com.br/fvg/atendimento.php(188): readMedicoDia()
+#3 {main}
+  thrown in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php on line 14
+[05-Jan-2023 01:20:36 America/Fortaleza] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php on line 11
+[05-Jan-2023 01:20:36 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php:14
+Stack trace:
+#0 /home2/hnrtco66/felpsti.com.br/fvg/conexao.php(14): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 /home2/hnrtco66/felpsti.com.br/fvg/logar.php(7): require('/home2/hnrtco66...')
+#2 {main}
+  thrown in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php on line 14
+[05-Jan-2023 01:20:38 America/Fortaleza] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php on line 11
+[05-Jan-2023 01:20:38 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php:14
+Stack trace:
+#0 /home2/hnrtco66/felpsti.com.br/fvg/conexao.php(14): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 /home2/hnrtco66/felpsti.com.br/fvg/logar.php(7): require('/home2/hnrtco66...')
+#2 {main}
+  thrown in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php on line 14
+[05-Jan-2023 01:21:04 America/Fortaleza] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php on line 11
+[05-Jan-2023 01:21:04 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php:14
+Stack trace:
+#0 /home2/hnrtco66/felpsti.com.br/fvg/conexao.php(14): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 /home2/hnrtco66/felpsti.com.br/fvg/logar.php(7): require('/home2/hnrtco66...')
+#2 {main}
+  thrown in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php on line 14
+[05-Jan-2023 01:21:07 America/Fortaleza] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php on line 11
+[05-Jan-2023 01:21:07 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php:14
+Stack trace:
+#0 /home2/hnrtco66/felpsti.com.br/fvg/conexao.php(14): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 /home2/hnrtco66/felpsti.com.br/fvg/logar.php(7): require('/home2/hnrtco66...')
+#2 {main}
+  thrown in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php on line 14
+[05-Jan-2023 01:21:13 America/Fortaleza] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php on line 11
+[05-Jan-2023 01:21:13 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php:14
+Stack trace:
+#0 /home2/hnrtco66/felpsti.com.br/fvg/conexao.php(14): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 /home2/hnrtco66/felpsti.com.br/fvg/logar.php(7): require('/home2/hnrtco66...')
+#2 {main}
+  thrown in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php on line 14
+[05-Jan-2023 01:22:29 America/Fortaleza] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php on line 11
+[05-Jan-2023 01:22:29 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php:14
+Stack trace:
+#0 /home2/hnrtco66/felpsti.com.br/fvg/conexao.php(14): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 /home2/hnrtco66/felpsti.com.br/fvg/logar.php(7): require('/home2/hnrtco66...')
+#2 {main}
+  thrown in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php on line 14
+[05-Jan-2023 01:22:38 America/Fortaleza] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php on line 11
+[05-Jan-2023 01:22:38 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php:14
+Stack trace:
+#0 /home2/hnrtco66/felpsti.com.br/fvg/conexao.php(14): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 /home2/hnrtco66/felpsti.com.br/fvg/logar.php(7): require('/home2/hnrtco66...')
+#2 {main}
+  thrown in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php on line 14
+[05-Jan-2023 01:22:42 America/Fortaleza] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php on line 11
+[05-Jan-2023 01:22:42 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php:14
+Stack trace:
+#0 /home2/hnrtco66/felpsti.com.br/fvg/conexao.php(14): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 /home2/hnrtco66/felpsti.com.br/fvg/logar.php(7): require('/home2/hnrtco66...')
+#2 {main}
+  thrown in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php on line 14
+[05-Jan-2023 01:23:34 America/Fortaleza] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php on line 11
+[05-Jan-2023 01:23:34 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php:14
+Stack trace:
+#0 /home2/hnrtco66/felpsti.com.br/fvg/conexao.php(14): PDO->__construct('mysql:host=loca...', 'root', 'root')
+#1 /home2/hnrtco66/felpsti.com.br/fvg/logar.php(7): require('/home2/hnrtco66...')
+#2 {main}
+  thrown in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php on line 14
+[05-Jan-2023 01:26:03 America/Fortaleza] PHP Warning:  mysqli::__construct(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: YES) in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php on line 11
+[05-Jan-2023 01:26:03 America/Fortaleza] PHP Fatal error:  Uncaught PDOException: SQLSTATE[HY000] [1045] Access denied for user 'root'@'localhost' (using password: YES) in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php:14
+Stack trace:
+#0 /home2/hnrtco66/felpsti.com.br/fvg/conexao.php(14): PDO->__construct('mysql:host=loca...', 'root', 'rootdoadmin')
+#1 /home2/hnrtco66/felpsti.com.br/fvg/logar.php(7): require('/home2/hnrtco66...')
+#2 {main}
+  thrown in /home2/hnrtco66/felpsti.com.br/fvg/conexao.php on line 14

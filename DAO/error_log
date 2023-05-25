@@ -1,0 +1,8 @@
+[18-Nov-2022 13:57:34 America/Fortaleza] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home2/hnrtco66/felpsti.com.br/fvg/DAO/salaDAO.php on line 19
+[21-Nov-2022 09:26:10 America/Fortaleza] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home2/hnrtco66/felpsti.com.br/fvg/DAO/salaDAO.php on line 19
+[25-Jan-2023 12:14:12 America/Fortaleza] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home2/hnrtco66/felpsti.com.br/fvg/DAO/salaDAO.php on line 19
+[27-Jan-2023 10:57:36 America/Fortaleza] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home2/hnrtco66/felpsti.com.br/fvg/DAO/salaDAO.php on line 19
+[24-Mar-2023 09:56:47 America/Fortaleza] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home2/hnrtco66/felpsti.com.br/fvg/DAO/salaDAO.php on line 19
+[14-Apr-2023 20:26:17 America/Fortaleza] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home2/hnrtco66/felpsti.com.br/fvg/DAO/salaDAO.php on line 19
+[15-May-2023 13:21:56 America/Fortaleza] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home2/hnrtco66/felpsti.com.br/fvg/DAO/salaDAO.php on line 19
+[25-May-2023 14:10:54 America/Fortaleza] PHP Warning:  mysqli_fetch_array() expects parameter 1 to be mysqli_result, bool given in /home2/hnrtco66/felpsti.com.br/fvg/DAO/salaDAO.php on line 19
