@@ -26,7 +26,7 @@ session_start();
             if (isset($_SESSION['nao_autenticado'])) :
             ?>
                 <div class="alert alert-danger alert-dismissible fade show" role="alert">
-                    <p>Usuário ou senha <strong>inválidos!</strong></p>
+                    <p>Usuário ou senha <strong>INCORRETO!</strong></p>
                     <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
                 </div>
 
