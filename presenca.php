@@ -56,7 +56,18 @@ switch ($_SESSION['perfil']) {
 
         <!-- Barra lateral -->
         <ul class="navbar-nav  sidebar sidebar-dark accordion" style="background-color:#198754;" id="accordionSidebar">
-
+            <!-- MEDICO Modal-->
+            <?php
+            include 'includes/modalMedico.php';
+            ?>
+            <!-- chat Modal-->
+            <?php
+            include 'includes/chat.php';
+            ?>
+            <!-- logout Modal-->
+            <?php
+            include 'includes/logout.php';
+            ?>
             <!-- Sidebar - LOGO + Nome -->
             <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
                 <div class="sidebar-brand-icon rotate-n-15">
@@ -499,18 +510,6 @@ switch ($_SESSION['perfil']) {
             });
         });
     </script>
-    <!-- MEDICO Modal-->
-    <?php
-    include 'includes/modalMedico.php';
-    ?>
-    <!-- chat Modal-->
-    <?php
-    include 'includes/chat.php';
-    ?>
-    <!-- logout Modal-->
-    <?php
-    include 'includes/logout.php';
-    ?>
 </body>
 
 </html>
