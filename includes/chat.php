@@ -1,4 +1,4 @@
-<!-- chat Modal-->]
+<!-- chat Modal-->
 <div class="modal fade" id="chatModal" tabindex="-1" role="dialog" aria-labelledby="chatModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
