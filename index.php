@@ -788,8 +788,10 @@ switch ($_SESSION['perfil']) {
                         <div class="modal-body">
 
                             <div class="form-floating mb-3">
-                                <input onchange="formatarCRM()" maxlength="8" type="text" required="required" class="form-control" id="crmModal" name="crmModal" placeholder="Digite APENAS números! Ao mudar de campo, ele formatará o CRM!">
-                                <label for="crmModal">CRM do médico</label>
+                                <label for="t">CRM do médico</label>
+                                <input type="hidden" id="t" name="t" ></input>
+                                <input onchange="formatarCRM()" maxlength="5" type="text" required="required" class="form-control" id="crmModal" name="crmModal" placeholder="CRM do médico">
+                                <label for="crmModal">Digite APENAS números! Ao mudar de campo, ele formatará o CRM!</label>
                             </div>
                             <div class="form-floating">
                                 <input type="text" class="form-control" required="required" id="nome" placeholder="Nome do médico">
