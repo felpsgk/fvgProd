@@ -31,7 +31,7 @@ include 'includes/head.php';
     <!-- Page Wrapper -->
     <div id="wrapper">
         <?php
-        include 'includes/navbar.php';
+        include 'includes/sidebar.php';
         ?>
         <!-- End of Sidebar -->
 
