@@ -15,15 +15,15 @@
                         <input type="text" class="form-control" id="nome" placeholder="Nome do médico" required="required">
                         <label for="nome">Nome do médico</label>
                     </div>
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-bs-dismiss="modal">Cancelar</button>
+                    <button type="submit" name="inserirmedico" class="btn btn-success">Salvar</button>
+                </div>
             </form>
         </div>
-        <div class="modal-footer">
-            <button class="btn btn-secondary" type="button" data-bs-dismiss="modal">Cancelar</button>
-            <button type="submit" name="inserirmedico" class="btn btn-success">Salvar</button>
-        </div>
     </div>
-</div>
-<!--
+    <!--
 <div class="modal fade" id="medicoCadModal" tabindex="-1" role="dialog" aria-labelledby="modalCadMedicoLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
@@ -43,15 +43,15 @@
         </div>
     </div>
 </div>-->
-<script>
-    function formatarCRM() {
-        var crmInput = document.getElementById('crmModal');
-        var crm = crmInput.value;
+    <script>
+        function formatarCRM() {
+            var crmInput = document.getElementById('crmModal');
+            var crm = crmInput.value;
 
-        // Verifica se o CRM já contém a sigla "CRM" no começo
-        if (!crm.startsWith('CRM')) {
-            // Insere a sigla "CRM" no começo
-            crmInput.value = 'CRM' + crm;
+            // Verifica se o CRM já contém a sigla "CRM" no começo
+            if (!crm.startsWith('CRM')) {
+                // Insere a sigla "CRM" no começo
+                crmInput.value = 'CRM' + crm;
+            }
         }
-    }
-</script>
+    </script>
