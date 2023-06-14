@@ -470,37 +470,14 @@ switch ($_SESSION['perfil']) {
     <a class="scroll-to-top rounded" href="#page-top">
         <i class="fas fa-angle-up"></i>
     </a>
-
-
     <!-- MEDICO Modal-->
-    <div class="modal fade" id="medicoCadModal" tabindex="-1" role="dialog" aria-labelledby="modalCadMedicoLabel" aria-hidden="true">
-
-        <div class="modal-dialog" role="document">
-            <div class="modal-content">
-                <div class="modal-header">
-                    <h5 class="modal-title" id="modalCadMedicoLabel">Cadastrar novo médico</h5>
-                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                </div>
-                <form action="DAO/medicoDAO.php" method="POST">
-                    <div class="modal-body">
-                        <div class="form-group">
-                            <label for="nome">Nome do médico</label>
-                            <input type="text" required="required" id="nome" name="nome" id="nome" class="form-control" placeholder="nome">
-                        </div>
-                        <div class="form-group">
-                            <label for="crm">CRM do médico</label>
-                            <input maxlength="8" required="required" type="text" id="crm" name="crm" id="crmModal" class="form-control" placeholder="crm">
-                        </div>
-                    </div>
-                    <div class="modal-footer">
-                        <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancelar</button>
-                        <button type="submit" name="inserirmedico" class="btn btn-primary">Salvar</button>
-                    </div>
-                </form>
-            </div>
-        </div>
-
-    </div>
+    <?php
+    include 'includes/modalMedico.php';
+    ?>
+    <!-- chat Modal-->
+    <?php
+    include 'includes/chat.php';
+    ?>
     <!-- Logout Modal-->
     <div class="modal fade" id="logoutModal" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
         <div class="modal-dialog" role="document">

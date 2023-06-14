@@ -24,3 +24,15 @@
         </div>
     </div>
 </div>
+<script>
+    function formatarCRM() {
+        var crmInput = document.getElementById('crmModal');
+        var crm = crmInput.value;
+
+        // Verifica se o CRM já contém a sigla "CRM" no começo
+        if (!crm.startsWith('CRM')) {
+            // Insere a sigla "CRM" no começo
+            crmInput.value = 'CRM' + crm;
+        }
+    }
+</script>
