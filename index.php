@@ -79,7 +79,7 @@ include 'includes/head.php';
                     <i class="fa-solid fa-address-card"></i>Cadastrar médico</a>
             </li>
             <li class="nav-item">
-                <a id="chamaModalChat" class="nav-link" href="#" data-toggle="modal" data-target="#chatModal">
+                <a id="chamaModalChat" class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#chatModal">
                     <i class="fa-solid fa-address-card"></i>Chat</a>
             </li>
             <!-- divisor -->

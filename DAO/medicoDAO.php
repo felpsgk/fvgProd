@@ -9,12 +9,13 @@ if (isset($_POST['inserirmedico'])) {
     //echo $_SESSION['usuario'];
 
     $crm = $_POST['crmModal'];
-    // Deixa tudo maiúsculo
-    $crmUpperCase = strtoupper($crm);
 
     $medico = $_POST['nome'];
+    // Deixa tudo maiúsculo
+    $crmUpperCase = strtoupper($crm);
+    $medicoUpperCase = strtoupper($medico);
 
-    $sql = "INSERT INTO medico (medico, crm) VALUES ('$medico','$crmUpperCase');";
+    $sql = "INSERT INTO medico (medico, crm) VALUES ('$medicoUpperCase','$crmUpperCase');";
 
     //echo $sql;
 
