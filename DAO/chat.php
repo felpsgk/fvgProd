@@ -2,7 +2,7 @@
 require('conexao.php');
 //expurgo da mensagem 50 atras
 $query = "SELECT * FROM chat ORDER BY id DESC LIMIT 1 OFFSET 49";
-$result = $conn->query($query);
+$result = $strcon->query($query);
 echo "entrou no dao";
 if ($result->num_rows > 0) {
     echo "entrou no if";
@@ -12,7 +12,7 @@ if ($result->num_rows > 0) {
 
     // Excluindo o registro
     $deleteQuery = "DELETE FROM chat WHERE id = $idToDelete";
-    if ($conn->query($deleteQuery) == TRUE) {
+    if ($strcon->query($deleteQuery) == TRUE) {
         echo "entrou no segundo if";
         $sql = "SELECT * FROM chat;";
         $result = mysqli_query($strcon, $sql);
@@ -24,7 +24,7 @@ if ($result->num_rows > 0) {
         <?php endwhile;
     } else {
         echo "entrou no else";
-        echo "Erro ao excluir o registro: " . $conn->error;
+        echo "Erro ao excluir o registro: " . $strcon->error;
     }
 } else {
     echo "entrou no segundo else";
@@ -36,6 +36,5 @@ if ($result->num_rows > 0) {
             <p class="text-dark m-2" id="message"><?php echo $row['msg'] ?></p>
         </div>
 <?php endwhile;
-    echo "Não foi encontrado o último quinquagésimo registro na tabela.";
 }
 ?>
