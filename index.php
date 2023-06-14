@@ -825,7 +825,7 @@ switch ($_SESSION['perfil']) {
         </div>
         <script>
         function formatarCRM() {
-            var crmInput = document.getElementById('crm');
+            var crmInput = document.getElementById('crmModal');
             var crm = crmInput.value;
 
             // Verifica se o CRM já contém a sigla "CRM" no começo
