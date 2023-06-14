@@ -1,4 +1,3 @@
-<!-- chat Modal-->
 <div class="modal fade" id="chatModal" tabindex="-1" aria-labelledby="chatModalLabel" aria-hidden="true">
     <div class="modal-dialog">
         <div class="modal-content">
@@ -6,8 +5,8 @@
                 <h5 class="modal-title fs-5" id="chatModalLabel">Chat</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <div class="modal-body">
-                <form id="chatz" class="form-container">
+            <form id="chatz" class="form-container">
+                <div class="modal-body">
                     <!--<div class="col">
                         <h1>Chat</h1>
                         <p>O chat se atualiza sozinho a cada 10 segundos</p>
@@ -23,8 +22,8 @@
                         <input class="mb-1 w-100" placeholder="Digite sua mensagem" type="text" id="msgText" name="msgText">
                         <button type="submit" class="btn">Enviar</button>
                     </div>-->
-                </form>
-            </div>
+                </div>
+            </form>
         </div>
     </div>
 </div>

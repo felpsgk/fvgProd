@@ -79,9 +79,7 @@ include 'includes/head.php';
                     <i class="fa-solid fa-address-card"></i>Cadastrar médico</a>
             </li>
             <li class="nav-item">
-                <a id="chamaModalChat" class="nav-link" 
-                href="#" data-bs-toggle="modal" 
-                data-bs-target="#chatModal">
+                <a id="chatModalBt" class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#chatModal">
                     <i class="fa-regular fa-comments"></i>Chat</a>
             </li>
             <!-- divisor -->
@@ -516,16 +514,16 @@ include 'includes/head.php';
         <?php
         include 'includes/modalMedico.php';
         ?>
-        <!-- chat Modal-->
-        <?php
-        include 'includes/chat.php';
-        ?>
         <!-- logout Modal-->
         <?php
         include 'includes/logout.php';
         ?>
         <?php
         include 'includes/footer.php';
+        ?>
+        <!-- chat Modal-->
+        <?php
+        include 'includes/chat.php';
         ?>
 </body>
 <?php
