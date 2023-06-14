@@ -10,7 +10,7 @@
                     <div class="col">
                         <h1>Chat</h1>
                         <p>O chat se atualiza sozinho a cada 10 segundos</p>
-                        <div id="corpoChat" class="overflow-auto" style="background-color: #eee; height: auto; margin-bottom: 10px;">
+                        <div id="corpoChat" class="overflow-auto" style="background-color: #eee; height: 400px; width: 400px; margin-bottom: 10px;">
                             <?php
                             require 'DAO/chat.php';
                             ?>
