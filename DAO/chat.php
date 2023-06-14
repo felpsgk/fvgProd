@@ -1,9 +1,23 @@
 <?php
 require('conexao.php');
-//expurgo de 50 mensagens atras
-$sql = "DELETE FROM chat WHERE id=((SELECT id FROM chat order by id desc limit 1)-50);";
-$stmt= $connect->prepare($sql);
-$stmt->execute();
+//expurgo da mensagem 50 atras
+$query = "SELECT * FROM chat ORDER BY id DESC LIMIT 1 OFFSET 49";
+$result = $conn->query($query);
+if ($result->num_rows > 0) {
+    // Obtém o ID do registro a ser deletado
+    $row = $result->fetch_assoc();
+    $idToDelete = $row['id'];
+
+    // Excluindo o registro
+    $deleteQuery = "DELETE FROM chat WHERE id = $idToDelete";
+    if ($conn->query($deleteQuery) === TRUE) {
+        echo "O último quinquagésimo registro foi excluído com sucesso!";
+    } else {
+        echo "Erro ao excluir o registro: " . $conn->error;
+    }
+} else {
+    echo "Não foi encontrado o último quinquagésimo registro na tabela.";
+}
 
 $sql = "SELECT * FROM chat;";
 $result = mysqli_query($strcon, $sql);
