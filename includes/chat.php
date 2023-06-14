@@ -8,19 +8,24 @@
             <form id="chatz" class="form-container">
                 <div class="modal-body">
                     <div class="col">
-                        <h1>Chat</h1>
-                        <p>O chat se atualiza sozinho a cada 10 segundos</p>
-                        <div id="corpoChat" class="overflow-auto" style="background-color: #eee; height: 400px; width: 400px; margin-bottom: 10px;">
-                            <?php
-                            require 'DAO/chat.php';
-                            ?>
+                        <div class="row">
+                            <h1>Chat</h1>
+                            <p>O chat se atualiza sozinho a cada 10 segundos</p>
                         </div>
-                        <input type="hidden" id="nomeUsu" name="nomeUsu" value="<?php echo $_SESSION['usuario'];
-                                                                                ?>"></input>
-                        <input type="hidden" id="idUsu" name="idUsu" value="<?php echo $_SESSION['id'];
-                                                                            ?>"></input>
-                        <input class="mb-1 w-100" placeholder="Digite sua mensagem" type="text" id="msgText" name="msgText">
-                        <button type="submit" class="btn">Enviar</button>
+                        <div class="row">
+                            <div id="corpoChat" class="col h-40 bg-white overflow-auto">
+                                <?php
+                                require 'DAO/chat.php';
+                                ?>
+                            </div>
+                        </div>
+                        <div class="row">
+                        <input type="hidden" id="nomeUsu" name="nomeUsu" value="<?php echo $_SESSION['usuario'];?>"></input>
+                        <input type="hidden" id="idUsu" name="idUsu" value="<?php echo $_SESSION['id'];?>"></input>
+                        <input class="col mb-1" placeholder="Digite sua mensagem" type="text" id="msgText" name="msgText">
+                        <button type="submit" class="col btn">Enviar</button>
+                        </div>
+                        
                     </div>
                 </div>
             </form>
