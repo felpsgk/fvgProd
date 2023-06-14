@@ -14,7 +14,7 @@
                                     <h1>Chat</h1>
                                     <p>O chat se atualiza sozinho a cada 10 segundos</p>
                                 </div>
-                                <div id="corpoChat" class="col-12 bg-body-secondary overflow-auto">
+                                <div id="corpoChat" class="col-12 bg-body-secondary overflow-auto" style="height: 400px;">
                                     <?php
                                     require 'DAO/chat.php';
                                     ?>
