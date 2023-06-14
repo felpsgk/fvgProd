@@ -16,3 +16,46 @@
         <button type="button" class="btn cancel" onclick="closeForm()">Fechar</button>
     </form>
 </div>
+<script>
+    setInterval(refreshMessages, 10000);
+
+    function refreshMessages() {
+        $.ajax({
+            url: 'DAO/chat.php',
+            type: 'GET',
+            dataType: 'html',
+            success: function(data) {
+                $('#corpoChat').html(data);
+                var height = document.getElementById('corpoChat').scrollHeight; - $('#corpoChat').height();
+                $('#corpoChat').scrollTop(height);
+            },
+            error: function() {
+                $('#corpoChat').prepend('Error retrieving new messages..');
+            }
+        });
+    }
+
+    $(document).ready(function() {
+        $('#chatz').on('submit', function(event) {
+            event.preventDefault();
+            $.ajax({
+                url: "DAO/createChat.php",
+                method: "POST",
+                data: $(this).serialize(),
+                dataType: "json",
+                success: function(data) {
+                    if (data.msg) {
+                        var html = '';
+                        html += '<div class="bg-white m-1 text-break"><h4 class="text-dark m-1" id="sender">' + data.msgFrom + '</h4><p class="text-dark m-2" id="message">' + data.msg + '</p></div>';
+                        $('#corpoChat').append(html);
+                        //$('#inserir')[0].reset();
+                    }
+                    $('#msgText').val('');
+                    var height = document.getElementById('corpoChat').scrollHeight; - $('#corpoChat').height();
+                    $('#corpoChat').scrollTop(height);
+                }
+            })
+        });
+
+    });
+</script>

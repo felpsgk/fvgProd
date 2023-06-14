@@ -3,7 +3,7 @@
         <div class="modal-content">
             <div class="modal-header">
                 <h5 class="modal-title" id="modalCadMedicoLabel">Cadastrar novo médico</h5>
-                <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                <button class="btn btn-close btn-secondary" type="button" data-dismiss="modal"></button>
             </div>
             <form action="DAO/medicoDAO.php" method="POST">
                 <div class="modal-body">
