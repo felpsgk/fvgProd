@@ -1,9 +1,8 @@
 <?php
 require('conexao.php');
 //expurgo da mensagem 50 atras
-$query = "SELECT * FROM chat ORDER BY id DESC LIMIT 1 OFFSET 49";
+$query = "SELECT * FROM chat ORDER BY id DESC LIMIT 1 OFFSET 2";
 $result = $strcon->query($query);
-echo "entrou no dao";
 if ($result->num_rows > 0) {
     echo "entrou no if";
     // Obtém o ID do registro a ser deletado
@@ -27,7 +26,6 @@ if ($result->num_rows > 0) {
         echo "Erro ao excluir o registro: " . $strcon->error;
     }
 } else {
-    echo "entrou no segundo else";
     $sql = "SELECT * FROM chat;";
     $result = mysqli_query($strcon, $sql);
     while ($row = mysqli_fetch_array($result)) :; ?>
