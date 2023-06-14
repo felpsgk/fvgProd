@@ -7,8 +7,8 @@
             </div>
             <form id="chatz" class="form-container">
                 <div class="row">
-                    <div class="modal-body">
-                        <div class="col">
+                    <div class="col">
+                        <div class="modal-body">
                             <div class="row">
                                 <h1>Chat</h1>
                                 <p>O chat se atualiza sozinho a cada 10 segundos</p>
