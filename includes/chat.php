@@ -5,10 +5,10 @@
                 <h5 class="modal-title fs-5" id="chatModalLabel">Chat</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
-            <form id="chatz" class="form-container">
-                <div class="row">
-                    <div class="col">
-                        <div class="modal-body">
+            <div class="row">
+                <div class="col">
+                    <div class="modal-body">
+                        <form id="chatz" class="form-container">
                             <div class="row">
                                 <h1>Chat</h1>
                                 <p>O chat se atualiza sozinho a cada 10 segundos</p>
@@ -26,10 +26,10 @@
                                 <input class="col-12 mb-1" placeholder="Digite sua mensagem" type="text" id="msgText" name="msgText">
                                 <button type="submit" class="col btn">Enviar</button>
                             </div>
-                        </div>
+                        </form>
                     </div>
                 </div>
-            </form>
+            </div>
         </div>
     </div>
 </div>
