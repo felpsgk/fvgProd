@@ -1,9 +1,13 @@
 <!-- chat Modal-->]
-<div class="modal fade" id="chatModal" tabindex="-1" role="dialog" aria-labelledby="modalCadMedicoLabel" aria-hidden="true">
+<div class="modal fade" id="chatModal" tabindex="-1" role="dialog" aria-labelledby="chatModalLabel" aria-hidden="true">
     <div class="modal-dialog" role="document">
         <div class="modal-content">
-            <div class="chat-popup" id="chatzera">
-                <form id="chatz" class="form-container">
+            <div class="modal-header">
+                <h5 class="modal-title" id="chatModalLabel">Chat</h5>
+                <button class="btn btn-close btn-secondary" type="button" data-dismiss="modal"></button>
+            </div>
+            <form id="chatz" class="form-container">
+                <div class="modal-body">
                     <h1>Chat</h1>
                     <p>O chat se atualiza sozinho a cada 10 segundos</p>
                     <div id="corpoChat" class="blocoMsg w-100 p-1 overflow-auto" style="background-color: #eee; height: 400px; margin-bottom: 10px;">
@@ -15,14 +19,18 @@
                     <input type="hidden" id="idUsu" name="idUsu" value="<?php echo $_SESSION['id']; ?>"></input>
                     <input class="mb-1 w-100" placeholder="Digite sua mensagem" type="text" id="msgText" name="msgText">
                     <button type="submit" class="btn">Enviar</button>
+
+                </div>
+                <div class="modal-footer">
                     <button class="btnar  btn-secondary" type="button" data-dismiss="modal">fechar</button>
-                </form>
-            </div>
+                </div>
+            </form>
         </div>
     </div>
 </div>
 <script>
     setInterval(refreshMessages, 10000);
+
     function refreshMessages() {
         $.ajax({
             url: 'DAO/chat.php',

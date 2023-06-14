@@ -196,7 +196,7 @@ switch ($_SESSION['perfil']) {
             </li>
             <li class="nav-item">
                 <a id="chatModal" class="nav-link" href="#" data-toggle="modal" data-target="#chatModal">
-                    <i class="fa-solid fa-address-card"></i>Cadastrar médico</a>
+                    <i class="fa-solid fa-address-card"></i>Chat</a>
             </li>
             <!-- divisor -->
             <hr class="sidebar-divisor bg-success">
