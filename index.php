@@ -81,6 +81,7 @@ switch ($_SESSION['perfil']) {
             width: 100px;
             height: 65px;
         }
+
         .btn-circle:hover {
             border-style: outset;
             border-color: #00ff26;
@@ -790,8 +791,8 @@ switch ($_SESSION['perfil']) {
                                 <input type="text" required="required" id="nome" name="nome" id="nome" class="form-control" placeholder="nome">
                             </div>
                             <div class="form-group">
-                                <label for="crm">CRM do médico</label>
-                                <input maxlength="8" required="required" type="text" id="crm" name="crm" id="crmModal" class="form-control" placeholder="crm">
+                                <label for="crmModal">CRM do médico</label>
+                                <input onchange="formatarCRM()"  maxlength="8" required="required" type="text" name="crmModal" id="crmModal" class="form-control" placeholder="crmModal">
                             </div>
                         </div>
                         <div class="modal-footer">
@@ -822,6 +823,18 @@ switch ($_SESSION['perfil']) {
                 <button type="button" class="btn cancel" onclick="closeForm()">Fechar</button>
             </form>
         </div>
+        <script>
+        function formatarCRM() {
+            var crmInput = document.getElementById('crm');
+            var crm = crmInput.value;
+
+            // Verifica se o CRM já contém a sigla "CRM" no começo
+            if (!crm.startsWith('CRM')) {
+                // Insere a sigla "CRM" no começo
+                crmInput.value = 'CRM' + crm;
+            }
+        }
+    </script>
         <script>
             setInterval(refreshMessages, 10000);
 
