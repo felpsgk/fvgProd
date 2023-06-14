@@ -414,7 +414,6 @@ switch ($_SESSION['perfil']) {
                                     <th scope="col" class="border">TURNO</th>
                                     <th scope="col" class="border">
                                     <th scope="col" class="border">
-
                                 </tr>
                             </thead>
                             <tbody id="corpoTabela">
@@ -424,20 +423,7 @@ switch ($_SESSION['perfil']) {
                                 ?>
                     </div>
                 </div>
-                <!-- MEDICO Modal-->
-                <?php
-                include 'includes/modalMedico.php';
-                ?>
-                <!-- chat Modal-->
-                <?php
-                include 'includes/chat.php';
-                ?>
-                <!-- logout Modal-->
-                <?php
-                include 'includes/logout.php';
-                ?>
             </div>
-
         </div>
         <!-- /.container-fluid -->
 
@@ -513,7 +499,18 @@ switch ($_SESSION['perfil']) {
             });
         });
     </script>
-
+    <!-- MEDICO Modal-->
+    <?php
+    include 'includes/modalMedico.php';
+    ?>
+    <!-- chat Modal-->
+    <?php
+    include 'includes/chat.php';
+    ?>
+    <!-- logout Modal-->
+    <?php
+    include 'includes/logout.php';
+    ?>
 </body>
 
 </html>
