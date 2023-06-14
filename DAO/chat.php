@@ -10,7 +10,7 @@ if ($result->num_rows > 0) {
 
     // Excluindo o registro
     $deleteQuery = "DELETE FROM chat WHERE id = $idToDelete";
-    if ($conn->query($deleteQuery) === TRUE) {
+    if ($conn->query($deleteQuery) == TRUE) {
         echo "O último quinquagésimo registro foi excluído com sucesso!";
     } else {
         echo "Erro ao excluir o registro: " . $conn->error;
