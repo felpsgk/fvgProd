@@ -159,4 +159,3 @@ function readPresenca()
 <?php endwhile;
 }
 ?>
-</tbody>
