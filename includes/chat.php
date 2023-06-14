@@ -9,27 +9,21 @@
                 <div class="row">
                     <div class="col">
                         <div class="modal-body">
-                            <form id="chatz" class="form-container">
-                                <div class="row">
-                                    <div class="col-12">
-                                        <h1>Chat</h1>
-                                        <p>O chat se atualiza sozinho a cada 10 segundos</p>
-                                    </div>
+                            <form id="chatz" class="row g-3">
+                                <div class="col-12">
+                                    <h1>Chat</h1>
+                                    <p>O chat se atualiza sozinho a cada 10 segundos</p>
                                 </div>
-                                <div class="row">
-                                    <div id="corpoChat" class="col-12 bg-body-secondary overflow-auto">
-                                        <?php
-                                        require 'DAO/chat.php';
-                                        ?>
-                                    </div>
+                                <div id="corpoChat" class="col-12 bg-body-secondary overflow-auto">
+                                    <?php
+                                    require 'DAO/chat.php';
+                                    ?>
                                 </div>
-                                <div class="row">
-                                    <div class="col-12">
-                                        <input type="hidden" id="nomeUsu" name="nomeUsu" value="<?php echo $_SESSION['usuario']; ?>"></input>
-                                        <input type="hidden" id="idUsu" name="idUsu" value="<?php echo $_SESSION['id']; ?>"></input>
-                                        <input class="mb-1" placeholder="Digite sua mensagem" type="text" id="msgText" name="msgText">
-                                        <button type="submit" class="col btn">Enviar</button>
-                                    </div>
+                                <div class="col-12">
+                                    <input type="hidden" id="nomeUsu" name="nomeUsu" value="<?php echo $_SESSION['usuario']; ?>"></input>
+                                    <input type="hidden" id="idUsu" name="idUsu" value="<?php echo $_SESSION['id']; ?>"></input>
+                                    <input class="mb-1" placeholder="Digite sua mensagem" type="text" id="msgText" name="msgText">
+                                    <button type="submit" class="col btn">Enviar</button>
                                 </div>
                             </form>
                         </div>
