@@ -1,6 +1,6 @@
 <div class="modal fade" id="chatModal" tabindex="-1" aria-labelledby="chatModalLabel" aria-hidden="true">
-    <div class="modal-dialog">
-        <div class="modal-content">
+    <div class="modal-dialog text-center">
+        <div class="modal-content align-self-center">
             <div class="modal-header">
                 <h5 class="modal-title fs-5" id="chatModalLabel">Chat</h5>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
@@ -22,7 +22,7 @@
                         <div class="row">
                         <input type="hidden" id="nomeUsu" name="nomeUsu" value="<?php echo $_SESSION['usuario'];?>"></input>
                         <input type="hidden" id="idUsu" name="idUsu" value="<?php echo $_SESSION['id'];?>"></input>
-                        <input class="col mb-1" placeholder="Digite sua mensagem" type="text" id="msgText" name="msgText">
+                        <input class="col-12 mb-1" placeholder="Digite sua mensagem" type="text" id="msgText" name="msgText">
                         <button type="submit" class="col btn">Enviar</button>
                         </div>
                         
