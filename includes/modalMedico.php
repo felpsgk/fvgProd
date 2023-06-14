@@ -12,7 +12,7 @@
                         <label for="crmModal">CRM do médico (apenas números)</label>
                     </div>
                     <div class="form-floating">
-                        <input type="text" class="form-control" id="nome" placeholder="Nome do médico" required="required">
+                        <input type="text" class="form-control" id="nome" name="nome" placeholder="Nome do médico" required="required">
                         <label for="nome">Nome do médico</label>
                     </div>
                 </div>
