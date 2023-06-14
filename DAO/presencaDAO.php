@@ -121,34 +121,15 @@ VALUES ('$crm','$medico','$andar','$sala','$mesa','$dia','$ti','$turno');";
 
 function readPresenca()
 {
-
     require 'conexao.php';
-
-
 
     $dia = date("Y-m-d");
 
-
-
     $sql = "SELECT id, crm, medico, andar, sala, mesa, dia, ti, turno FROM presenca WHERE dia = '$dia';";
-
-
-
-    //echo $sql;
-
-
 
     $result = mysqli_query($strcon, $sql);
 
-
-
-    //echo $result;
-
-
-
     while ($row = mysqli_fetch_array($result)) :; ?>
-
-
         <tr>
             <form onsubmit="return confirm('Deseja realmente realizar esta ação?')" action="DAO/medicoDAO.php" method="POST">
                 <input type="hidden" id="id" name="id" value="<?php echo $row['id']; ?>"></input>
@@ -175,19 +156,7 @@ function readPresenca()
                 <td><button type="submit" id="deletamedico" name="deletamedico" class="btn btn-sm btn-danger deletamedico">Excluir</button></td>
             </form>
         </tr>
-
 <?php endwhile;
 }
 ?>
-<!-- MEDICO Modal-->
-<?php
-include 'includes/modalMedico.php';
-?>
-<!-- chat Modal-->
-<?php
-include 'includes/chat.php';
-?>
-<!-- logout Modal-->
-<?php
-include 'includes/logout.php';
-?>
+</tbody>

@@ -422,6 +422,18 @@ switch ($_SESSION['perfil']) {
                                 require 'DAO/presencaDAO.php';
                                 readPresenca();
                                 ?>
+                                <!-- MEDICO Modal-->
+                                <?php
+                                include 'includes/modalMedico.php';
+                                ?>
+                                <!-- chat Modal-->
+                                <?php
+                                include 'includes/chat.php';
+                                ?>
+                                <!-- logout Modal-->
+                                <?php
+                                include 'includes/logout.php';
+                                ?>
                     </div>
                 </div>
             </div>
