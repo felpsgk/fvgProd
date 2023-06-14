@@ -178,7 +178,16 @@ function readPresenca()
 
 <?php endwhile;
 }
-
-
-
+?>
+<!-- MEDICO Modal-->
+<?php
+include 'includes/modalMedico.php';
+?>
+<!-- chat Modal-->
+<?php
+include 'includes/chat.php';
+?>
+<!-- logout Modal-->
+<?php
+include 'includes/logout.php';
 ?>
