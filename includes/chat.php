@@ -2,7 +2,7 @@
     <div class="modal-dialog text-center modal-xl">
         <div class="modal-content align-self-center">
             <div class="modal-header">
-                <h5 class="modal-title fs-5" id="chatModalLabel">Chat</h5>
+                <h2 class="modal-title fs-5" id="chatModalLabel">Chat</h2>
                 <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
             </div>
             <div class="container">
@@ -11,7 +11,6 @@
                         <div class="modal-body">
                             <form id="chatz" class="row g-3">
                                 <div class="col">
-                                    <h1>Chat</h1>
                                     <p>O chat se atualiza sozinho a cada 10 segundos</p>
                                 </div>
                                 <div id="corpoChat" class="col-12 bg-body-secondary overflow-auto" style="height: 500px;">

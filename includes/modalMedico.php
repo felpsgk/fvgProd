@@ -8,7 +8,7 @@
             <form action="DAO/medicoDAO.php" method="POST">
                 <div class="modal-body">
                     <div class="form-floating mb-3">
-                        <input type="text" class="form-control" id="crmModal" name="crmModal" placeholder="CRM do médico" onchange="formatarCRM()" required="required" maxlength="5">
+                        <input type="number" class="form-control" id="crmModal" name="crmModal" placeholder="CRM do médico" onchange="formatarCRM()" required="required" maxlength="5">
                         <label for="crmModal">CRM do médico (apenas números)</label>
                     </div>
                     <div class="form-floating">

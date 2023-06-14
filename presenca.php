@@ -28,79 +28,12 @@ include 'includes/head.php';
 ?>
 
 <body id="page-top">
-
     <!-- Page Wrapper -->
     <div id="wrapper">
 
-        <!-- Barra lateral -->
-        <ul class="navbar-nav  sidebar sidebar-dark accordion" style="background-color:#198754;" id="accordionSidebar">
-
-            <!-- Sidebar - LOGO + Nome -->
-            <a class="sidebar-brand d-flex align-items-center justify-content-center" href="index.php">
-                <div class="sidebar-brand-icon rotate-n-15">
-                    <i class="fas fa-laugh-wink"></i>
-                </div>
-                <div class="sidebar-brand-text mx-3">FVG</div>
-            </a>
-
-            <!-- divisor -->
-            <hr class="sidebar-divisor bg-success my-0">
-
-            <!-- Nav Item - Dashboard -->
-            <li class="nav-item">
-                <a class="nav-link" href="index.php">
-                    <i class="fas fa-fw fa-tachometer-alt"></i>
-                    <span>Dashboard</span></a>
-            </li>
-
-            <!-- divisor -->
-            <hr class="sidebar-divisor bg-success">
-
-            <!-- Titulo opaco menu -->
-            <div class="sidebar-heading">
-                Registrar
-            </div>
-
-            <!-- Nav Item - Opcao opaco menu -->
-            <!-- Nav Item - Charts -->
-            <li class="nav-item active">
-                <a class="nav-link" href="presenca.php">
-                    <i class="fas fa-fw fa-user-check"></i>
-                    <span>Presença</span></a>
-            </li>
-            <li class="nav-item">
-                <a class="nav-link" href="atendimento.php">
-                    <i class="fas fa-ticket-alt"></i>
-                    <span>Atendimentos</span></a>
-            </li>
-            <li class="nav-item">
-                <a id="medicoCadModalBt" class="nav-link" href="#" data-toggle="modal" data-target="#medicoCadModal">
-                    <i class="fa-solid fa-address-card"></i>Cadastrar médico</a>
-            </li>
-
-            <!-- divisor -->
-            <hr class="sidebar-divisor bg-success">
-
-            <!-- Titulo opaco menu 
-            <div class="sidebar-heading">
-                Visualizar
-            </div>
-
-            <li class="nav-item">
-                <a class="nav-link" href="charts.html">
-                    <i class="fas fa-chart-bar"></i>
-                    <span>Gráficos</span></a>
-            </li>-->
-
-            <!-- divisor -->
-            <hr class="sidebar-divisor d-none d-md-block">
-
-            <!-- Sidebar Toggler (Sidebar) -->
-            <div class="text-center d-none d-md-inline">
-                <button class="rounded-circle border-0" id="sidebarToggle"></button>
-            </div>
-
-        </ul>
+        <?php
+        include 'includes/navbar.php';
+        ?>
         <!-- End of Sidebar -->
 
         <!-- Content Wrapper -->
@@ -109,34 +42,10 @@ include 'includes/head.php';
             <!-- Main Content -->
             <div id="content">
 
-                <nav class="navbar navbar-expand navbar-light bg-white topbar mb-4 static-top shadow">
-
-                    <!-- Sidebar Toggle (Topbar) -->
-                    <button id="sidebarToggleTop" class="btn btn-link d-md-none rounded-circle mr-3">
-                        <i class="fa fa-bars"></i>
-                    </button>
-                    <!-- Topbar Navbar -->
-                    <ul class="navbar-nav ml-auto">
-                        <div class="topbar-divisor d-none d-sm-block">
-
-                        </div>
-                        <!-- Nav Item - User Information -->
-                        <li class="nav-item dropdown">
-                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                                <img src="img/undraw_profile.svg" width="40" height="40" class="rounded-circle">
-                            </a>
-                            <div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                                <h6 class="dropdown-header"><?php echo $_SESSION['usuario']; ?></h6>
-                                <div class="dropdown-divider"></div>
-                                <!--<a class="dropdown-item" href="#">Edit Profile</a>-->
-                                <a class="dropdown-item" href="#" data-toggle="modal" data-target="#logoutModal">
-                                    <i class="fas fa-sign-out-alt fa-sm fa-fw mr-2 text-gray-400"></i>
-                                    Logout
-                                </a>
-                            </div>
-                        </li>
-                    </ul>
-                </nav>
+                <!-- Topbar -->
+                <?php
+                include 'includes/navbar.php';
+                ?>
                 <!-- End of Topbar -->
 
                 <!-- Begin Page Content -->
@@ -428,14 +337,9 @@ include 'includes/head.php';
     <a class="scroll-to-top rounded" href="#page-top">
         <i class="fas fa-angle-up"></i>
     </a>
-
     <!-- MEDICO Modal-->
     <?php
     include 'includes/modalMedico.php';
-    ?>
-    <!-- chat Modal-->
-    <?php
-    include 'includes/chat.php';
     ?>
     <!-- logout Modal-->
     <?php
@@ -443,6 +347,10 @@ include 'includes/head.php';
     ?>
     <?php
     include 'includes/footer.php';
+    ?>
+    <!-- chat Modal-->
+    <?php
+    include 'includes/chat.php';
     ?>
     <script>
         $(document).ready(function() {
