@@ -1,5 +1,5 @@
 <div class="modal fade" id="chatModal" tabindex="-1" aria-labelledby="chatModalLabel" aria-hidden="true">
-    <div class="modal-dialog text-center modal-dialog-scrollable">
+    <div class="modal-dialog text-center modal-xl">
         <div class="modal-content align-self-center">
             <div class="modal-header">
                 <h5 class="modal-title fs-5" id="chatModalLabel">Chat</h5>
@@ -14,7 +14,7 @@
                                     <h1>Chat</h1>
                                     <p>O chat se atualiza sozinho a cada 10 segundos</p>
                                 </div>
-                                <div id="corpoChat" class="col-12 bg-body-secondary" >
+                                <div id="corpoChat" class="col-12 bg-body-secondary overflow-auto" style="height: 500px;">
                                     <?php
                                     require 'DAO/chat.php';
                                     ?>
