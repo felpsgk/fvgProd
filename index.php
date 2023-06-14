@@ -75,7 +75,7 @@ include 'includes/head.php';
                     <span>Atendimentos</span></a>
             </li>
             <li class="nav-item">
-                <a id="medicoCadModalBt" class="nav-link" href="#" data-toggle="modal" data-target="#medicoCadModal">
+                <a id="medicoCadModalBt" class="nav-link" href="#" data-bs-toggle="modal" data-bs-target="#medicoCadModal">
                     <i class="fa-solid fa-address-card"></i>Cadastrar médico</a>
             </li>
             <li class="nav-item">
