@@ -10,7 +10,7 @@
                     <div class="col">
                         <div class="modal-body">
                             <form id="chatz" class="row g-3">
-                                <div class="col-12">
+                                <div class="col">
                                     <h1>Chat</h1>
                                     <p>O chat se atualiza sozinho a cada 10 segundos</p>
                                 </div>
@@ -19,11 +19,11 @@
                                     require 'DAO/chat.php';
                                     ?>
                                 </div>
-                                <div class="col-12">
+                                <div class="col">
                                     <input type="hidden" id="nomeUsu" name="nomeUsu" value="<?php echo $_SESSION['usuario']; ?>"></input>
                                     <input type="hidden" id="idUsu" name="idUsu" value="<?php echo $_SESSION['id']; ?>"></input>
-                                    <input class="mb-1" placeholder="Digite sua mensagem" type="text" id="msgText" name="msgText">
-                                    <button type="submit" class="col btn">Enviar</button>
+                                    <input class="col mb-1" placeholder="Digite sua mensagem" type="text" id="msgText" name="msgText">
+                                    <button type="submit" class="col btn btn-success">Enviar</button>
                                 </div>
                             </form>
                         </div>
