@@ -40,15 +40,7 @@ switch ($_SESSION['perfil']) {
 
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.4/jquery.datetimepicker.min.css">
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-datetimepicker/2.5.4/build/jquery.datetimepicker.full.js"></script>
-    <script>
-        function openForm() {
-            document.getElementById("chatzera").style.display = "block";
-        }
-
-        function closeForm() {
-            document.getElementById("chatzera").style.display = "none";
-        }
-    </script>
+    
 
     <title>Página principal</title>
 
@@ -200,6 +192,10 @@ switch ($_SESSION['perfil']) {
             </li>
             <li class="nav-item">
                 <a id="medicoCadModalBt" class="nav-link" href="#" data-toggle="modal" data-target="#medicoCadModal">
+                    <i class="fa-solid fa-address-card"></i>Cadastrar médico</a>
+            </li>
+            <li class="nav-item">
+                <a id="chatModal" class="nav-link" href="#" data-toggle="modal" data-target="#chatModal">
                     <i class="fa-solid fa-address-card"></i>Cadastrar médico</a>
             </li>
             <!-- divisor -->
