@@ -786,18 +786,19 @@ switch ($_SESSION['perfil']) {
                     </div>
                     <form action="DAO/medicoDAO.php" method="POST">
                         <div class="modal-body">
-                            <div class="form-group">
-                                <label for="nome">Nome do médico</label>
-                                <input type="text" required="required" id="nome" name="nome" id="nome" class="form-control" placeholder="nome">
-                            </div>
-                            <div class="form-group">
+
+                            <div class="form-floating mb-3">
+                                <input onchange="formatarCRM()" maxlength="8" type="text" required="required" class="form-control" id="crmModal" name="crmModal" placeholder="Digite APENAS números! Ao mudar de campo, ele formatará o CRM!">
                                 <label for="crmModal">CRM do médico</label>
-                                <input onchange="formatarCRM()"  maxlength="8" required="required" type="text" name="crmModal" id="crmModal" class="form-control" placeholder="crmModal">
+                            </div>
+                            <div class="form-floating">
+                                <input type="text" class="form-control" required="required" id="nome" placeholder="Nome do médico">
+                                <label for="nome">Nome do médico</label>
                             </div>
                         </div>
                         <div class="modal-footer">
                             <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancelar</button>
-                            <button type="submit" name="inserirmedico" class="btn btn-primary">Salvar</button>
+                            <button type="submit" name="inserirmedico" class="btn btn-info">Salvar</button>
                         </div>
                     </form>
                 </div>
@@ -824,17 +825,17 @@ switch ($_SESSION['perfil']) {
             </form>
         </div>
         <script>
-        function formatarCRM() {
-            var crmInput = document.getElementById('crmModal');
-            var crm = crmInput.value;
+            function formatarCRM() {
+                var crmInput = document.getElementById('crmModal');
+                var crm = crmInput.value;
 
-            // Verifica se o CRM já contém a sigla "CRM" no começo
-            if (!crm.startsWith('CRM')) {
-                // Insere a sigla "CRM" no começo
-                crmInput.value = 'CRM' + crm;
+                // Verifica se o CRM já contém a sigla "CRM" no começo
+                if (!crm.startsWith('CRM')) {
+                    // Insere a sigla "CRM" no começo
+                    crmInput.value = 'CRM' + crm;
+                }
             }
-        }
-    </script>
+        </script>
         <script>
             setInterval(refreshMessages, 10000);
 
