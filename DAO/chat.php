@@ -4,7 +4,6 @@ require('conexao.php');
 $query = "SELECT * FROM chat ORDER BY id DESC LIMIT 1 OFFSET 2";
 $result = $strcon->query($query);
 if ($result->num_rows > 0) {
-    echo "entrou no if";
     // Obtém o ID do registro a ser deletado
     $row = $result->fetch_assoc();
     $idToDelete = $row['id'];
@@ -12,7 +11,6 @@ if ($result->num_rows > 0) {
     // Excluindo o registro
     $deleteQuery = "DELETE FROM chat WHERE id = $idToDelete";
     if ($strcon->query($deleteQuery) == TRUE) {
-        echo "entrou no segundo if";
         $sql = "SELECT * FROM chat;";
         $result = mysqli_query($strcon, $sql);
         while ($row = mysqli_fetch_array($result)) :; ?>
@@ -22,7 +20,6 @@ if ($result->num_rows > 0) {
             </div>
         <?php endwhile;
     } else {
-        echo "entrou no else";
         echo "Erro ao excluir o registro: " . $strcon->error;
     }
 } else {
