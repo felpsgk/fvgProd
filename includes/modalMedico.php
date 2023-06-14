@@ -24,6 +24,26 @@
         </div>
     </div>
 </div>
+<!--
+<div class="modal fade" id="medicoCadModal" tabindex="-1" role="dialog" aria-labelledby="modalCadMedicoLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="modalCadMedicoLabel">Cadastrar novo médico</h5>
+                <button class="btn btn-close btn-secondary" type="button" data-dismiss="modal"></button>
+            </div>
+            <form action="DAO/medicoDAO.php" method="POST">
+                <div class="modal-body">
+
+                </div>
+                <div class="modal-footer">
+                    <button class="btn btn-secondary" type="button" data-dismiss="modal">Cancelar</button>
+                    <button type="submit" name="inserirmedico" class="btn btn-success">Salvar</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</div>-->
 <script>
     function formatarCRM() {
         var crmInput = document.getElementById('crmModal');
