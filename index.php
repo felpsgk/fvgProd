@@ -786,10 +786,9 @@ switch ($_SESSION['perfil']) {
                     </div>
                     <form action="DAO/medicoDAO.php" method="POST">
                         <div class="modal-body">
-
+                            <label for="t">CRM do médico</label>
+                            <input type="hidden" id="t" name="t"></input>
                             <div class="form-floating mb-3">
-                                <label for="t">CRM do médico</label>
-                                <input type="hidden" id="t" name="t" ></input>
                                 <input onchange="formatarCRM()" maxlength="5" type="text" required="required" class="form-control" id="crmModal" name="crmModal" placeholder="CRM do médico">
                                 <label for="crmModal">Digite APENAS números! Ao mudar de campo, ele formatará o CRM!</label>
                             </div>
