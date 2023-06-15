@@ -21,7 +21,8 @@
                                 <div class="col">
                                     <input type="hidden" id="nomeUsu" name="nomeUsu" value="<?php echo $_SESSION['usuario']; ?>"></input>
                                     <input type="hidden" id="idUsu" name="idUsu" value="<?php echo $_SESSION['id']; ?>"></input>
-                                    <input type="hidden" id="horaAtual" name="horaAtual" value="<?php echo date('H\hi'); ?>"></input>
+                                    <input type="hidden" id="horaMsg" name="horaMsg" value="<?php echo date('H\hi'); ?>"></input>
+                                    <input type="hidden" id="dataMsg" name="dataMsg" value="<?php echo date('d/m/y'); ?>"></input>
                                     <input class="col mb-1" placeholder="Digite sua mensagem" type="text" id="msgText" name="msgText">
                                     <button type="submit" class="col btn btn-success">Enviar</button>
                                 </div>
