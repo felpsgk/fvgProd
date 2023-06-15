@@ -1,7 +1,7 @@
 <?php
 require('conexao.php');
 //expurgo da mensagem 50 atras
-$query = "SELECT * FROM chat ORDER BY id DESC LIMIT 1 OFFSET 2";
+$query = "SELECT * FROM chat ORDER BY id DESC LIMIT 1 OFFSET 39";
 $result = $strcon->query($query);
 if ($result->num_rows > 0) {
     // Obtém o ID do registro a ser deletado
