@@ -63,7 +63,7 @@
                 success: function(data) {
                     if (data.msg) {
                         var html = '';
-                        html += '<div class="bg-white m-1 text-break"><h4 class="text-dark m-1" id="sender">' + data.msgFrom + '</h4><p class="text-dark m-2" id="message">' + data.msg + '</p><p class="text-start m-2 fst-italic" id="message">'+data.dataMsg+'</p><p class="text-end m-2 fst-italic" id="message">'+data.horaMsg+'</p></div>';
+                        html += '<div class="bg-white m-1 text-break"><h4 class="text-dark m-1" id="sender">' + data.msgFrom + '</h4><div class="row"><p class="text-dark m-2" id="message">' + data.msg + '</p><p class="col text-start m-2 fst-italic" id="message">'+data.dataMsg+'</p><p class="col text-end m-2 fst-italic" id="message">'+data.horaMsg+'</p></div></div>';
                         $('#corpoChat').append(html);
                         //$('#inserir')[0].reset();
                     }
