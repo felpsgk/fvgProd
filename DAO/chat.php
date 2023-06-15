@@ -17,6 +17,7 @@ if ($result->num_rows > 0) {
             <div id="msgs" class="bg-white m-1 text-break">
                 <h4 class="text-dark m-1" id="sender"><?php echo $row['msgFrom'] ?></h4>
                 <p class="text-dark m-2" id="message"><?php echo $row['msg'] ?></p>
+                <p class="text-end m-2 fst-italic" id="hour"><?php echo $row['horaAtual'] ?></p>
             </div>
         <?php endwhile;
     } else {
@@ -29,6 +30,7 @@ if ($result->num_rows > 0) {
         <div id="msgs" class="bg-white m-1 text-break">
             <h4 class="text-dark m-1" id="sender"><?php echo $row['msgFrom'] ?></h4>
             <p class="text-dark m-2" id="message"><?php echo $row['msg'] ?></p>
+                <p class="text-end m-2 fst-italic" id="hour"><?php echo $row['horaAtual'] ?></p>
         </div>
 <?php endwhile;
 }
