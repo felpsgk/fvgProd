@@ -290,7 +290,7 @@ include 'includes/head.php';
                     <div class="col table-responsive">
                         <table id="dataTable" class="table table-striped" width="100%" cellspacing="0">
                             <thead>
-                                <tr>
+                                <tr class="table-success">
                                     <th scope="col" class="border">CRM</th>
                                     <th scope="col" class="border">NOME</th>
                                     <th scope="col" class="border">ANDAR</th>
