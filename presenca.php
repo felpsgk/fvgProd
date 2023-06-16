@@ -288,7 +288,7 @@ include 'includes/head.php';
             <div class="container shadow bg-white p-3 mb-2 rounded">
                 <div class="row">
                     <div class="col table-responsive">
-                        <table id="dataTable" class="table bg-secondary bg-gradient rounded text-white" width="100%" cellspacing="0">
+                        <table id="dataTable" class="table table-striped" width="100%" cellspacing="0">
                             <thead>
                                 <tr>
                                     <th scope="col" class="border">CRM</th>
