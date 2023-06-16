@@ -310,7 +310,7 @@ include 'includes/head.php';
                             </div>
                         </div>
                         <div class="table-responsive">
-                            <table id="dataTable" class="table-success table-striped" width="100%" cellspacing="0">
+                            <table id="dataTable" class="table-success table-hover table-striped" width="100%" cellspacing="0">
                                 <thead>
                                     <tr>
                                         <th scope="col" class="border">CRM</th>
