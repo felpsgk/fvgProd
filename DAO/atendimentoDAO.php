@@ -370,59 +370,54 @@ function readAtendimento()
     //echo $sql;
 
     $result = mysqli_query($strcon, $sql);
-    $corLinha = "table-light";
+
     //echo $result;
+
     while ($row = mysqli_fetch_array($result)) :; ?>
 
-        <?php echo '<tr class="' . $corLinha . '">'; ?>
-        <form onsubmit="return confirm('Deseja realmente realizar esta ação?')" action="DAO/atendimentoDAO.php" method="POST">
-            <input type="hidden" id="id" name="id" value="<?php echo $row['id']; ?>"></input>
+        <tr>
+            <form onsubmit="return confirm('Deseja realmente realizar esta ação?')" action="DAO/atendimentoDAO.php" method="POST">
+                <input type="hidden" id="id" name="id" value="<?php echo $row['id']; ?>"></input>
 
-            <td scope="row" class="border" style="white-space: nowrap"><?php echo $row['crm'] ?></td>
+                <td scope="row" class="border" style="white-space: nowrap"><?php echo $row['crm'] ?></td>
 
-            <td scope="" class="border" style="white-space: nowrap"><?php echo $row['medico'] ?></td>
+                <td scope="" class="border" style="white-space: nowrap"><?php echo $row['medico'] ?></td>
 
-            <td scope="" class="border" style="white-space: nowrap"><?php echo $row['andar'] ?></td>
+                <td scope="" class="border" style="white-space: nowrap"><?php echo $row['andar'] ?></td>
 
-            <td scope="" class="border" style="white-space: nowrap"><?php echo $row['sala'] ?></td>
+                <td scope="" class="border" style="white-space: nowrap"><?php echo $row['sala'] ?></td>
 
-            <td scope="" class="border" style="white-space: nowrap"><?php echo $row['mesa'] ?></td>
+                <td scope="" class="border" style="white-space: nowrap"><?php echo $row['mesa'] ?></td>
 
-            <td scope="" class="border" style="white-space: nowrap"><?php echo $row['sistema'] ?></td>
+                <td scope="" class="border" style="white-space: nowrap"><?php echo $row['sistema'] ?></td>
 
-            <td scope="" class="border" style="white-space: nowrap"><?php echo $row['criticidade'] ?></td>
+                <td scope="" class="border" style="white-space: nowrap"><?php echo $row['criticidade'] ?></td>
 
-            <td scope="" class="border" style="white-space: nowrap"><?php echo $row['erro'] ?></td>
+                <td scope="" class="border" style="white-space: nowrap"><?php echo $row['erro'] ?></td>
 
-            <td scope="" class="border" style="white-space: nowrap"><?php echo $row['descricao'] ?></td>
+                <td scope="" class="border" style="white-space: nowrap"><?php echo $row['descricao'] ?></td>
 
-            <td scope="" class="border" style="white-space: nowrap"><?php echo $row['status'] ?></td>
+                <td scope="" class="border" style="white-space: nowrap"><?php echo $row['status'] ?></td>
 
-            <td scope="" class="border" style="white-space: nowrap"><?php echo $row['observacao'] ?></td>
+                <td scope="" class="border" style="white-space: nowrap"><?php echo $row['observacao'] ?></td>
 
-            <td scope="" class="border" style="white-space: nowrap"><?php echo $row['dia'] ?></td>
+                <td scope="" class="border" style="white-space: nowrap"><?php echo $row['dia'] ?></td>
 
-            <td scope="" class="border" style="white-space: nowrap"><?php echo $row['mes'] ?></td>
+                <td scope="" class="border" style="white-space: nowrap"><?php echo $row['mes'] ?></td>
 
-            <td scope="" class="border" style="white-space: nowrap"><?php echo $row['hora'] ?></td>
+                <td scope="" class="border" style="white-space: nowrap"><?php echo $row['hora'] ?></td>
 
-            <td scope="" class="border" style="white-space: nowrap"><?php echo $row['ti'] ?></td>
+                <td scope="" class="border" style="white-space: nowrap"><?php echo $row['ti'] ?></td>
 
-            <td>
-                <button type="submit" id="atualizaatendimento" name="atualizaatendimento" class="btn btn-sm btn-info">Atualizar</a>
-            </td>
+                <td>
+                    <button type="submit" id="atualizaatendimento" name="atualizaatendimento" class="btn btn-sm btn-info">Atualizar</a>
+                </td>
 
-            <td><button type="submit" id="deletaatendimento" name="deletaatendimento" class="btn btn-sm btn-danger">Excluir</button></td>
-        </form>
+                <td><button type="submit" id="deletaatendimento" name="deletaatendimento" class="btn btn-sm btn-danger">Excluir</button></td>
+            </form>
         </tr>
 
-<?php
-        if ($corLinha === "table-light") {
-            $corLinha = "table-success";
-        } else {
-            $corLinha = "table-light";
-        }
-    endwhile;
+<?php endwhile;
 }
 
 

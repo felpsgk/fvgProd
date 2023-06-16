@@ -310,9 +310,9 @@ include 'includes/head.php';
                             </div>
                         </div>
                         <div class="table-responsive">
-                            <table id="dataTable" class="table table-striped" width="100%" cellspacing="0">
+                            <table id="dataTable" class="table-success table-striped" width="100%" cellspacing="0">
                                 <thead>
-                                    <tr class="table-success">
+                                    <tr>
                                         <th scope="col" class="border">CRM</th>
                                         <th scope="col" class="border">NOME</th>
                                         <th scope="col" class="border">ANDAR</th>
