@@ -288,9 +288,9 @@ include 'includes/head.php';
             <div class="container shadow bg-white p-3 mb-2 rounded">
                 <div class="row">
                     <div class="col table-responsive">
-                        <table id="dataTable" class="table-success table-striped" width="100%" cellspacing="0">
+                        <table id="dataTable" class="table-success table-hover table-striped" width="100%" cellspacing="0">
                             <thead>
-                                <tr class="table-success">
+                                <tr>
                                     <th scope="col" class="border">CRM</th>
                                     <th scope="col" class="border">NOME</th>
                                     <th scope="col" class="border">ANDAR</th>
