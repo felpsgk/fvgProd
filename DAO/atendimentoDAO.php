@@ -370,12 +370,12 @@ function readAtendimento()
     //echo $sql;
 
     $result = mysqli_query($strcon, $sql);
-
+    $corLinha = 'class="table-light"';
     //echo $result;
 
     while ($row = mysqli_fetch_array($result)) :; ?>
 
-        <tr>
+        <tr <?php echo $corLinha ?>>
             <form onsubmit="return confirm('Deseja realmente realizar esta ação?')" action="DAO/atendimentoDAO.php" method="POST">
                 <input type="hidden" id="id" name="id" value="<?php echo $row['id']; ?>"></input>
 
@@ -418,6 +418,11 @@ function readAtendimento()
         </tr>
 
 <?php endwhile;
+if ($corLinha === 'class="table-light"') {
+    $corLinha = 'class="table-success"';
+} else {
+    $corLinha = 'class="table-light"';
+}
 }
 
 
