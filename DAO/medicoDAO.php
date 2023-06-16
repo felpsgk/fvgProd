@@ -12,8 +12,9 @@ if (isset($_POST['inserirmedico'])) {
 
     $medico = $_POST['nome'];
     // Deixa tudo maiúsculo
-    $crmUpperCase = strtoupper($crm);
-    $medicoUpperCase = strtoupper($medico);
+    mb_internal_encoding('UTF-8');
+    $crmUpperCase = mb_strtoupper($medico);
+    $medicoUpperCase = mb_strtoupper($medico);
 
     $sql = "INSERT INTO medico (medico, crm) VALUES ('$medicoUpperCase','$crmUpperCase');";
 
